@@ -13,11 +13,11 @@ class AddTableUser extends Migration
         $this->schema->create('users', function (Blueprint $table) {
             $table->increments('id');
             $table->string('username',13);
-            $table->string('password')->nullable();
-            $table->string('mobile',11);
-            $table->string('email');
-            $table->string('nick');
-            $table->string('pic');
+            $table->string('password',13);
+            $table->string('mobile',11)->nullable();
+            $table->string('email')->nullable();
+            $table->string('nick')->nullable();
+            $table->string('pic')->nullable();
             $table->boolean('status')->default(1);
         });
     }
@@ -27,6 +27,6 @@ class AddTableUser extends Migration
      */
     public function down()
     {
-        Schema::drop('users');
+        $this->schema->drop('users');
     }
 }
