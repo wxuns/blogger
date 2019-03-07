@@ -13,8 +13,11 @@ class CreateTableArticleClass extends Migration
         $this->schema->create('article_class', function (Blueprint $table) {
             $table->increments('id');
             $table->string('classname',20)->nullable();
+            $table->boolean('status')->default(1)->comment('是否显示');
+            $table->integer('auth')->unsigned();
             $table->dateTime('time');
             $table->string('itro')->nullable();
+            $table->foreign('auth')->references('id')->on('auth');
         });
     }
 
