@@ -14,7 +14,6 @@ class CreateTableKeyword extends Migration
             $table->increments('id');
             $table->string('name',20);
             $table->boolean('status')->default();
-            $table->text('article_id')->nullable()->comment('文章id ,隔开');
         });
     }
 
