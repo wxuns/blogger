@@ -14,6 +14,15 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
     protected static $config = '';
 
     /**
+     * 开启session.
+     */
+    public function __initSession()
+    {
+        session_save_path(APPLICATION_PATH.'/storage/framework/session');
+        session_start();
+    }
+
+    /**
      * composer自动加载.
      */
     public function _initLoad()
@@ -56,6 +65,8 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
     {
         //csrf验证
         class_alias('\Tool\Csrf', 'Csrf');
+        $token = Csrf::generate( 'csrf_token' );
+        setcookie('token',$token,time()+60,'/','wxuns.cn');
         $csrf = new CsrfPlugin();
         $dispatcher->registerPlugin($csrf);
     }
@@ -79,8 +90,20 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
      */
     public function _initRoute(Yaf\Dispatcher $dispatcher)
     {
+        $base_url = $dispatcher->getRequest()->getBaseUri();
+        $request_url = rtrim($dispatcher->getRequest()->getRequestUri(),'/');
+        $host = $_SERVER['HTTP_HOST'];
+        $defaultHost = $this::$config->application['host'];
         $router = $dispatcher->getRouter();
-        $config = new \Yaf\Config\Ini(APPLICATION_PATH.'/conf/routes.ini', ini_get('yaf.environ'));
+        if (in_array($host, explode(',', $defaultHost))||(stripos($request_url,$base_url)===0)) {
+            $modulename = 'routes';
+        } else {
+            $request = $dispatcher->getRequest();
+            $modulename = str_replace('.', '', $host);
+            $request->module = ucwords($modulename);
+        }
+
+        $config = new \Yaf\Config\Ini(APPLICATION_PATH.'/conf/'.$modulename.'.ini', ini_get('yaf.environ'));
         $router->addConfig($config->routes);
     }
 
