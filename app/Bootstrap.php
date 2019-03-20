@@ -61,15 +61,15 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
      *
      * @param \Yaf\Dispatcher $dispatcher
      */
-    public function _initCsrf(Yaf\Dispatcher $dispatcher)
-    {
-        //csrf验证
-        class_alias('\Tool\Csrf', 'Csrf');
-        $token = Csrf::generate( 'csrf_token' );
-        setcookie('token',$token,time()+60,'/','wxuns.cn');
-        $csrf = new CsrfPlugin();
-        $dispatcher->registerPlugin($csrf);
-    }
+//    public function _initCsrf(Yaf\Dispatcher $dispatcher)
+//    {
+//        //csrf验证
+//        class_alias('\Tool\Csrf', 'Csrf');
+//        $token = Csrf::generate( 'csrf_token' );
+//        setcookie('token',$token,time()+60,'/','wxuns.cn');
+//        $csrf = new CsrfPlugin();
+//        $dispatcher->registerPlugin($csrf);
+//    }
 
     /**
      * 插件.

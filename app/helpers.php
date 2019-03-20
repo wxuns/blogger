@@ -18,3 +18,14 @@ if (!function_exists('Request')) {
         }
     }
 }
+/**
+ * to json
+ */
+if (!function_exists('toJson')) {
+    function toJson($data)
+    {
+        $serializer = JMS\Serializer\SerializerBuilder::create()->build();
+        $jsonContent = $serializer->serialize($data, 'json');
+        echo $jsonContent; // or return it in a Response
+    }
+}
