@@ -18,7 +18,8 @@
     "twig/twig": "^2.5",
     "illuminate/database": "^5.6",
     "doctrine/dbal": "^2.9",
-    "jms/serializer": "^1.13.0"
+    "jms/serializer": "^1.13.0",
+    "symfony/validator": "^4.2"
   },
   "require-dev": {
     "symfony/var-dumper": "^4.1",

@@ -39,6 +39,8 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
         $arrConfig = Yaf\Application::app()->getConfig();
         Yaf\Registry::set('config', $arrConfig);
         $this::$config = Yaf\Registry::get('config');
+        //volidator
+        class_alias('\Webmozart\Assert\Assert','Assert');
     }
 
     /**
