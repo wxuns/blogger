@@ -12,7 +12,7 @@ use Overtrue\Validation\Factory as ValidatorFactory;
 
 abstract class BaseController extends YafController
 {
-    public $factory = '';
+    public $validator = '';
     public function init()
     {
         $messages = [
@@ -25,6 +25,6 @@ abstract class BaseController extends YafController
             // ...
         ];
         //初始化工厂对象
-        $this->factory = new ValidatorFactory(new Translator($messages));
+        $this->validator = new ValidatorFactory(new Translator($messages));
     }
 }
