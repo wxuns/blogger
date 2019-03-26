@@ -25,7 +25,13 @@ class UserController extends BaseController
             if (!$msg){
                 echo toJson(['errorcode'=>4000,'errormsg'=>'user not find']);
             }else{
-                $msg->password = $data['password'];
+                $key = 'd3h1bnM=';
+                $token = [
+                    'id'=>$msg->id,
+                    'username'=>$msg->username
+                ];
+                $msg->token = Firebase\JWT\JWT::encode($token, $key);
+                unset($msg->password);
                 echo toJson($msg);
             }
         } else {
