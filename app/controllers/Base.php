@@ -13,6 +13,7 @@ use Overtrue\Validation\Factory as ValidatorFactory;
 abstract class BaseController extends YafController
 {
     public $validator = '';
+    public $id = '';
     public function init()
     {
         $messages = [
@@ -26,5 +27,13 @@ abstract class BaseController extends YafController
         ];
         //初始化工厂对象
         $this->validator = new ValidatorFactory(new Translator($messages));
+        $this->validator->extend('checktoken',function($attribute, $value) {
+            $decoded = \Firebase\JWT\JWT::decode($value, base64_encode('wxuns'), array('HS256'));
+            if($decoded){
+                $this->id = $decoded->id;
+                return true;
+            }
+            return false;
+        },"the token is not a valid token.");
     }
 }
