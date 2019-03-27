@@ -1,0 +1,3 @@
+2019-03-27 21:14:19 | yaf.error | 7800 | 5c9b772aef71e | 1553692459.143 | Wrong number of segments | D:\item\blogger\vendor\firebase\php-jwt\src\JWT.php in line 78
+2019-03-27 21:14:26 | yaf.error | 7800 | 5c9b7731dc5af | 1553692466.34 | Wrong number of segments | D:\item\blogger\vendor\firebase\php-jwt\src\JWT.php in line 78
+2019-03-27 21:14:34 | yaf.error | 7800 | 5c9b773a3d191 | 1553692474.349 | Wrong number of segments | D:\item\blogger\vendor\firebase\php-jwt\src\JWT.php in line 78

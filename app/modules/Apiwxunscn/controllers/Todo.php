@@ -1,6 +1,6 @@
 <?php
 
-class TodoController extends BaseController 
+class TodoController extends BaseController
 {
     public function addTodoAction()
     {
@@ -19,9 +19,10 @@ class TodoController extends BaseController
             $todo->content = $req['content'];
             $todo->time = $req['time'];
             $todo->user_id = $this->id;
+            $todo->status = 1;
             //todo.
             if ($todo->save()){
-                echo toJson(['status'=>'success']);
+                echo toJson($todo->toArray());
             }
         } else {
             //未通过
@@ -30,6 +31,7 @@ class TodoController extends BaseController
         }
         return false;
     }
+
     public function todoAction()
     {
         $req = Request($this->getRequest());
@@ -44,8 +46,10 @@ class TodoController extends BaseController
             $todo = new TodoModel();
             $list = $todo
                 ->where('user_id',$this->id)
+                ->where('status',1)
+                ->orderBy('time','asc')
                 ->get()->toArray();
-            dump($list);
+            echo toJson($list);
         } else {
             //未通过
             //输出错误消息
