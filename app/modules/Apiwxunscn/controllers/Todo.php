@@ -57,4 +57,31 @@ class TodoController extends BaseController
         }
         return false;
     }
+    public function deltodoAction()
+    {
+        $id = $this->getRequest()->getParam('id');
+        $req = Request($this->getRequest());
+        $rules = [
+            'token' => 'required|checktoken',
+            ///...
+        ];
+        $validator = $this->validator->make($req, $rules);
+        //判断验证是否通过
+        if ($validator->passes()) {
+            //通过
+            dump($req);
+//            $todo = new TodoModel();
+//            $list = $todo
+//                ->where('user_id',$this->id)
+//                ->where('status',1)
+//                ->orderBy('time','asc')
+//                ->get()->toArray();
+//            echo toJson($list);
+        } else {
+            //未通过
+            //输出错误消息
+            echo toJson(['errorcode'=>4001,'errormsg'=>$validator->messages()->all()]); // 或者 $validator->errors();
+        }
+        return false;
+    }
 }

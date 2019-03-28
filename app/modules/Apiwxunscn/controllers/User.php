@@ -28,7 +28,8 @@ class UserController extends BaseController
                 $key = 'd3h1bnM=';
                 $token = [
                     'id'=>$msg->id,
-                    'username'=>$msg->username
+                    'username'=>$msg->username,
+                    'password'=>md5($data['password'])
                 ];
                 $msg->token = Firebase\JWT\JWT::encode($token, $key);
                 unset($msg->password);

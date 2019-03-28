@@ -28,12 +28,31 @@ abstract class BaseController extends YafController
         //初始化工厂对象
         $this->validator = new ValidatorFactory(new Translator($messages));
         $this->validator->extend('checktoken',function($attribute, $value) {
-            $decoded = \Firebase\JWT\JWT::decode($value, base64_encode('wxuns'), array('HS256'));
-            if($decoded){
-                $this->id = $decoded->id;
-                return true;
-            }
-            return false;
+            return $this->checkToken($attribute,$value);
         },"the token is not a valid token.");
+        $this->validator->extend('admin',function($attribute, $value) {
+            return $this->checkToken($attribute,$value);
+        },"who are you?");
+        $this->validator->extend('user',function($attribute, $value) {
+            return $this->checkToken($attribute,$value);
+        },"who are you?");
+    }
+
+    public function checkToken($attribute, $value)
+    {
+        $decoded = \Firebase\JWT\JWT::decode($value, base64_encode('wxuns'), array('HS256'));
+        if($decoded){
+            $msg = DB::table('users')
+                ->where([
+                    ['users.username','=',$decoded->username],
+                    ['users.password','=',$decoded->password]
+                ])->first();
+            if (!$msg){
+                return false;
+            }
+            $this->id = $decoded->id;
+            return true;
+        }
+        return false;
     }
 }
