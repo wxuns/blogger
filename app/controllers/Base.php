@@ -30,15 +30,12 @@ abstract class BaseController extends YafController
         $this->validator->extend('checktoken',function($attribute, $value) {
             return $this->checkToken($attribute,$value);
         },"the token is not a valid token.");
-        $this->validator->extend('admin',function($attribute, $value) {
-            return $this->checkToken($attribute,$value);
-        },"who are you?");
-        $this->validator->extend('user',function($attribute, $value) {
-            return $this->checkToken($attribute,$value);
+        $this->validator->extend('auth',function($attribute, $value, $parameters) {
+            return $this->checkToken($attribute,$value,$parameters);
         },"who are you?");
     }
 
-    public function checkToken($attribute, $value)
+    public function checkToken($attribute, $value, $parameters)
     {
         $decoded = \Firebase\JWT\JWT::decode($value, base64_encode('wxuns'), array('HS256'));
         if($decoded){
@@ -50,8 +47,14 @@ abstract class BaseController extends YafController
             if (!$msg){
                 return false;
             }
+
             $this->id = $decoded->id;
-            return true;
+            if($parameters[0] == 'admin'&&$msg->auth == 1){
+                return true;
+            }else if ($parameters[0] == 'user'&&$msg->auth == 2){
+                return true;
+            }
+            return false;
         }
         return false;
     }
