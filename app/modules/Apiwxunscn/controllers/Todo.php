@@ -98,7 +98,7 @@ class TodoController extends BaseController
             $list = $todo
                 ->where('user_id',$this->id)
                 ->where('id',$id)
-                ->update(['status'=>0]);
+                ->update(['content'=>$req['content'],'time'=>$req['time']]);
             echo toJson($list);
         } else {
             //未通过
