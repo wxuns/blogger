@@ -1,0 +1,19 @@
+2019-04-01 19:56:36 | DB | 1532 | 5ca1fc73146df | 1554119796.372 | select * from `users` inner join `auth` on `users`.`auth` = `auth`.`id` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:155.38
+2019-04-01 19:56:39 | DB | 1532 | 5ca1fc7797ff5 | 1554119799.765 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:12.88
+2019-04-01 19:56:39 | DB | 1532 | 5ca1fc7797ff5 | 1554119799.804 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:2.74
+2019-04-01 19:56:55 | DB | 1532 | 5ca1fc87b22cc | 1554119815.864 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:20.56
+2019-04-01 19:56:55 | DB | 1532 | 5ca1fc87b22cc | 1554119815.948 | insert into `todo` (`content`, `time`, `user_id`, `status`) values ('德玛西亚', '2019-4-30 10:30', '1', '1') | time:79.16
+2019-04-01 22:35:27 | DB | 1532 | 5ca221aef324b | 1554129327.974 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:100.4
+2019-04-01 22:35:27 | DB | 1532 | 5ca221aef324b | 1554129327.998 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:2.25
+2019-04-01 22:35:41 | DB | 1532 | 5ca221bd3a34a | 1554129341.322 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:10.33
+2019-04-01 22:35:41 | DB | 1532 | 5ca221bd3a34a | 1554129341.427 | update `todo` set `content` = '博客开发进行', `time` = '2019-03-31 11:00:00' where `user_id` = '1' and `id` = '1' | time:100.13
+2019-04-01 22:36:30 | DB | 1532 | 5ca221ee7183c | 1554129390.746 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:29.71
+2019-04-01 22:36:30 | DB | 1532 | 5ca221ee7183c | 1554129390.759 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:6.28
+2019-04-01 22:36:33 | DB | 1532 | 5ca221f16533a | 1554129393.527 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:14.81
+2019-04-01 22:36:33 | DB | 1532 | 5ca221f16533a | 1554129393.542 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:2.61
+2019-04-01 22:40:07 | DB | 1532 | 5ca222c799251 | 1554129607.764 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:18.06
+2019-04-01 22:40:07 | DB | 1532 | 5ca222c799251 | 1554129607.770 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:0.82
+2019-04-01 22:42:23 | DB | 1532 | 5ca2234edfe4b | 1554129743.111 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:21.49
+2019-04-01 22:42:23 | DB | 1532 | 5ca2234edfe4b | 1554129743.120 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:3.24
+2019-04-01 22:43:34 | DB | 1532 | 5ca22396569c4 | 1554129814.483 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:15.83
+2019-04-01 22:43:34 | DB | 1532 | 5ca22396569c4 | 1554129814.492 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:4.13

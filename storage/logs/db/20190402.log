@@ -1,0 +1,13 @@
+2019-04-02 20:40:57 | DB | 1532 | 5ca35858a488f | 1554208857.729 | select * from `users` inner join `auth` on `users`.`auth` = `auth`.`id` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:99.54
+2019-04-02 20:41:01 | DB | 1532 | 5ca3585d5b078 | 1554208861.520 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:17.38
+2019-04-02 20:41:01 | DB | 1532 | 5ca3585d5b078 | 1554208861.552 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:2.65
+2019-04-02 20:41:15 | DB | 1532 | 5ca3586b27652 | 1554208875.295 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:15.52
+2019-04-02 20:41:15 | DB | 1532 | 5ca3586b27652 | 1554208875.305 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:2.22
+2019-04-02 20:44:59 | DB | 1532 | 5ca3594b648c7 | 1554209099.547 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:17.7
+2019-04-02 20:44:59 | DB | 1532 | 5ca3594b648c7 | 1554209099.555 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:0.77
+2019-04-02 21:01:46 | DB | 1532 | 5ca35d3a239ce | 1554210106.338 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:14.88
+2019-04-02 21:01:46 | DB | 1532 | 5ca35d3a239ce | 1554210106.348 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:1.13
+2019-04-02 22:25:55 | DB | 1532 | 5ca370f30136d | 1554215155.631 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:90.64
+2019-04-02 22:25:55 | DB | 1532 | 5ca370f30136d | 1554215155.635 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:1.03
+2019-04-02 22:29:08 | DB | 1532 | 5ca371b4a8829 | 1554215348.873 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:17.55
+2019-04-02 22:29:08 | DB | 1532 | 5ca371b4a8829 | 1554215348.882 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:2.27

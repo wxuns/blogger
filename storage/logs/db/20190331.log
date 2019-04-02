@@ -1,0 +1,9 @@
+2019-03-31 11:41:16 | DB | 7480 | 5ca036dbe786f | 1554003676.786 | select * from `users` inner join `auth` on `users`.`auth` = `auth`.`id` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:444.09
+2019-03-31 11:41:20 | DB | 7480 | 5ca036dfd1843 | 1554003680.33 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:28.34
+2019-03-31 11:41:20 | DB | 7480 | 5ca036dfd1843 | 1554003680.176 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:134.4
+2019-03-31 13:31:36 | DB | 7480 | 5ca050b800c0c | 1554010296.241 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:83.56
+2019-03-31 13:31:36 | DB | 7480 | 5ca050b800c0c | 1554010296.258 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:10.45
+2019-03-31 20:48:41 | DB | 7480 | 5ca0b7290cfe5 | 1554036521.211 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:21.23
+2019-03-31 20:48:41 | DB | 7480 | 5ca0b7290cfe5 | 1554036521.218 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:2.86
+2019-03-31 20:59:26 | DB | 7480 | 5ca0b9ae4b1f1 | 1554037166.447 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:19.13
+2019-03-31 20:59:26 | DB | 7480 | 5ca0b9ae4b1f1 | 1554037166.455 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:2.78
