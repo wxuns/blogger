@@ -1,0 +1,3 @@
+2019-04-07 19:50:31 | DB | 7904 | 5ca9e40643a92 | 1554637831.916 | select * from `users` inner join `auth` on `users`.`auth` = `auth`.`id` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:421.85
+2019-04-07 19:50:35 | DB | 7904 | 5ca9e40b77a89 | 1554637835.623 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:17.52
+2019-04-07 19:50:35 | DB | 7904 | 5ca9e40b77a89 | 1554637835.656 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:2.67

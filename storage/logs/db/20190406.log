@@ -1,0 +1,17 @@
+2019-04-06 14:37:39 | DB | 6976 | 5ca84931b0350 | 1554532659.234 | select * from `users` inner join `auth` on `users`.`auth` = `auth`.`id` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:276.7
+2019-04-06 14:37:42 | DB | 6976 | 5ca84936b5e3e | 1554532662.901 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:10.43
+2019-04-06 14:37:42 | DB | 6976 | 5ca84936b5e3e | 1554532662.929 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:8.33
+2019-04-06 14:37:48 | DB | 6976 | 5ca8493cc8773 | 1554532668.910 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:14.75
+2019-04-06 14:37:48 | DB | 6976 | 5ca8493cc8773 | 1554532668.920 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:3.14
+2019-04-06 14:38:20 | DB | 6976 | 5ca8495c6ff96 | 1554532700.564 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:14.81
+2019-04-06 14:38:20 | DB | 6976 | 5ca8495c6ff96 | 1554532700.573 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:2.13
+2019-04-06 14:43:36 | DB | 6976 | 5ca84a984fbd4 | 1554533016.599 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:21.77
+2019-04-06 14:43:36 | DB | 6976 | 5ca84a984fbd4 | 1554533016.610 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:3.1
+2019-04-06 14:43:44 | DB | 6976 | 5ca84a9fd87ac | 1554533024.61 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:33.93
+2019-04-06 14:43:44 | DB | 6976 | 5ca84a9fd87ac | 1554533024.71 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:4.85
+2019-04-06 14:48:37 | DB | 6976 | 5ca84bc5b1d37 | 1554533317.929 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:21.09
+2019-04-06 14:48:37 | DB | 6976 | 5ca84bc5b1d37 | 1554533317.940 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:1.97
+2019-04-06 14:48:54 | DB | 6976 | 5ca84bd6acbe6 | 1554533334.829 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:20.08
+2019-04-06 14:48:54 | DB | 6976 | 5ca84bd6acbe6 | 1554533334.836 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:3.62
+2019-04-06 14:49:04 | DB | 6976 | 5ca84be06d0a8 | 1554533344.562 | select * from `users` where (`users`.`username` = 'wxuns' and `users`.`password` = '23ddd915db5ad1ac433daf9263d55be7') limit 1 | time:15.51
+2019-04-06 14:49:04 | DB | 6976 | 5ca84be06d0a8 | 1554533344.569 | select * from `todo` where `user_id` = '1' and `status` = '1' order by `time` asc | time:4.32
