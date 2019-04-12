@@ -32,8 +32,7 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
-        echo "
-<!doctype html>
+        echo "<!doctype html>
 <html>
 <head>
     <meta charset=\"gbk\">
@@ -43,147 +42,40 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     <link href=\"css/base.css\" rel=\"stylesheet\">
     <link href=\"css/index.css\" rel=\"stylesheet\">
-    <link href=\"css/m.css\" rel=\"stylesheet\">
+    <link href=\"https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css\" rel=\"stylesheet\">
+    <link rel=\"stylesheet\" href=\"//at.alicdn.com/t/font_1137992_id64ix04yo8.css\">
     <link href=\"https://lib.baomitu.com/Swiper/4.5.0/css/swiper.min.css\" rel=\"stylesheet\">
     <script src=\"https://lib.baomitu.com/Swiper/4.5.0/js/swiper.min.js\"></script>
     <script src=\"js/hc-sticky.js\"></script>
-    <script src=\"js/comm.js\"></script>
+    <script src=\"https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js\"></script>
+    <script src=\"https://cdn.bootcss.com/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js\"></script>
     <!--[if lt IE 9]>
     <script src=\"js/modernizr.js\"></script>
     <![endif]-->
 </head>
 <body>
-<div class=\"toolbar\">
-    ";
-        // line 24
-        echo "        ";
-        // line 25
-        echo "            ";
-        // line 26
-        echo "                ";
-        // line 27
-        echo "
-                ";
-        // line 29
-        echo "                    ";
-        // line 30
-        echo "                    ";
-        // line 31
-        echo "                                ";
-        // line 32
-        echo "                                ";
-        // line 33
-        echo "                                ";
-        // line 34
-        echo "                                ";
-        // line 35
-        echo "                                ";
-        // line 36
-        echo "                                ";
-        // line 37
-        echo "                                ";
-        // line 38
-        echo "                            ";
-        // line 39
-        echo "                ";
-        // line 40
-        echo "                    ";
-        // line 41
-        echo "                    ";
-        // line 42
-        echo "                                ";
-        // line 43
-        echo "                                ";
-        // line 44
-        echo "                                ";
-        // line 45
-        echo "                                ";
-        // line 46
-        echo "                                ";
-        // line 47
-        echo "                                ";
-        // line 48
-        echo "                            ";
-        // line 49
-        echo "                ";
-        // line 50
-        echo "
-
-                ";
-        // line 53
-        echo "                    ";
-        // line 54
-        echo "                ";
-        // line 55
-        echo "
-                ";
-        // line 57
-        echo "
-            ";
-        // line 59
-        echo "
-            ";
-        // line 61
-        echo "                ";
-        // line 62
-        echo "                ";
-        // line 63
-        echo "                ";
-        // line 64
-        echo "                ";
-        // line 65
-        echo "                ";
-        // line 66
-        echo "                ";
-        // line 67
-        echo "                ";
-        // line 68
-        echo "            ";
-        // line 69
-        echo "            ";
-        // line 70
-        echo "                ";
-        // line 71
-        echo "                ";
-        // line 72
-        echo "                ";
-        // line 73
-        echo "                ";
-        // line 74
-        echo "                ";
-        // line 75
-        echo "                ";
-        // line 76
-        echo "            ";
-        // line 77
-        echo "
-            ";
-        // line 79
-        echo "                ";
-        // line 80
-        echo "                ";
-        // line 81
-        echo "                ";
-        // line 82
-        echo "            ";
-        // line 83
-        echo "
-        ";
-        // line 85
-        echo "        ";
-        // line 86
-        echo "                ";
-        // line 87
-        echo "                ";
-        // line 88
-        echo "            ";
-        // line 89
-        echo "        ";
-        // line 90
-        echo "    ";
-        // line 91
-        echo "</div>
 <header>
+    <div class=\"toolbar\">
+        <div class=\"clearfix toolbar-inner\">
+            <div class=\"quicklink\">
+                <ul id=\"chinaz_website_links\" class=\"accesslink\">
+                    <li><a href=\"http://www.chinaz.com\"><span>站长之家</span></a></li>
+                    <li><a href=\"http://down.chinaz.com\" target=\"_blank\"><span>源码下载</span></a></li>
+                    <li><a href=\"http://bbs.chinaz.com\" target=\"_blank\"><span>站长论坛</span></a></li>
+
+                </ul>
+
+            </div>
+            <div id=\"chinaz_topbar\"><div class=\"userbar\">
+                    <span>快捷登录：</span>
+                    <a href=\"#\" target=\"_top\" title=\"QQ登录\"><i class=\"iconfont icon-qq\"></i></a>
+                    <a href=\"#\" target=\"_top\" title=\"微博登录\"><i class=\"iconfont icon-xinlangweibo\"></i></a>
+                    <a href=\"#\" target=\"_top\" title=\"Github登录\"><i class=\"iconfont icon-github\"></i></a>
+                    <a href=\"#\" target=\"_top\" title=\"微信登录\"><i class=\"iconfont icon-weixin\"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class=\"logo\">
         <img src=\"images/logo.png\" alt=\"\">
     </div>
@@ -195,8 +87,6 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
             <li><a href=\"list.html\">我的日记</a></li>
             <li><a href=\"about.html\">关于我</a></li>
             <li><a href=\"gbook.html\">留言</a></li>
-            <li><a href=\"info.html\">内容页</a></li>
-            <li><a href=\"infopic.html\">内容页</a></li>
         </ul>
     </nav>
     <script>
@@ -211,8 +101,34 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
         }
     </script>
 </header>
-<article data-sticky-container>
-    <div class=\"l_box selector\">
+";
+        // line 71
+        echo "    ";
+        // line 72
+        echo "        ";
+        // line 73
+        echo "        ";
+        // line 74
+        echo "            ";
+        // line 75
+        echo "            ";
+        // line 76
+        echo "            ";
+        // line 77
+        echo "            ";
+        // line 78
+        echo "            ";
+        // line 79
+        echo "            ";
+        // line 80
+        echo "            ";
+        // line 81
+        echo "        ";
+        // line 82
+        echo "    ";
+        // line 84
+        echo "<article>
+    <aside class=\"l_box\">
         <div class=\"search\">
             <form action=\"/e/search/index.php\" method=\"post\" name=\"searchform\" id=\"searchform\">
                 <input name=\"keyboard\" id=\"keyboard\" class=\"input_text\" value=\"请输入关键字词\" style=\"color: rgb(153, 153, 153);\" onfocus=\"if(value=='请输入关键字词'){this.style.color='#000';value=''}\" onblur=\"if(value==''){this.style.color='#999';value='请输入关键字词'}\" type=\"text\">
@@ -222,13 +138,11 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
                 <input name=\"Submit\" class=\"input_submit\" value=\"搜索\" type=\"submit\">
             </form>
         </div>
-        <div class=\"fenlei\">
-            <h2>文章分类</h2>
+        <div class=\"about_me\">
+            <h2>关于我</h2>
             <ul>
-                <li><a href=\"/\">学无止境（33）</a></li>
-                <li><a href=\"/\">日记（19）</a></li>
-                <li><a href=\"/\">慢生活（520）</a></li>
-                <li><a href=\"/\">美文欣赏（40）</a></li>
+                <i><img src=\"images/4.jpg\"></i>
+                <p><b>杨青</b>，一个80后草根女站长！09年入行。一直潜心研究web前端技术，一边工作一边积累经验，分享一些个人博客模板，以及SEO优化等心得。</p>
             </ul>
         </div>
         <div class=\"remen\">
@@ -289,27 +203,20 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
                 <a href=\"http://www.yangqq.com\">杨青个人博客</a> <a href=\"http://www.yangqq.com\">杨青博客</a>
             </ul>
         </div>
-        <div class=\"about_me\">
-            <h2>关于我</h2>
-            <ul>
-                <i><img src=\"images/4.jpg\"></i>
-                <p><b>杨青</b>，一个80后草根女站长！09年入行。一直潜心研究web前端技术，一边工作一边积累经验，分享一些个人博客模板，以及SEO优化等心得。</p>
-            </ul>
-        </div>
         <div class=\"guanzhu\">
             <h2>关注我 么么哒</h2>
             <ul>
                 <img src=\"images/wx.jpg\">
             </ul>
         </div>
-    </div>
-    <div class=\"r_box\">
-        <li>
+    </aside>
+    <main class=\"r_box\">
+        <li style=\"padding: 0\">
             <div class=\"swiper-container swiper-container-initialized swiper-container-horizontal\">
                 <div class=\"swiper-wrapper\">
-                    <div class=\"swiper-slide\"><img src=\"http://dingyue.ws.126.net/0hAJDgvjmuMy8VTOGgGpUXfkLZp1Aqcbvg04WQwmb2wVc1551098903239.jpg\" alt=\"\"></div>
-                    <div class=\"swiper-slide\"><img src=\"http://img.leikeji.com/resource/img/47e0ac4ad663403e8ad142cdabaf6a25.jpg\" alt=\"\"></div>
-                    <div class=\"swiper-slide\"><img src=\"https://dsfs.oppo.com/hd/2019/Reno/images/logo-iamreno-9ab3befba3.png\" alt=\"\"></div>
+                    <div class=\"swiper-slide\"><img src=\"http://sc.chinaz.com/Files/pic/indexpic/hdpic2.jpg\" alt=\"\"></div>
+                    <div class=\"swiper-slide\"><img src=\"http://sc.chinaz.com/Files/pic/indexpic/hdpic1.jpg\" alt=\"\"></div>
+                    <div class=\"swiper-slide\"><img src=\"http://sc.chinaz.com/Files/pic/indexpic/hdpic3.jpg\" alt=\"\"></div>
                 </div>
                 <!-- 如果需要分页器 -->
                 <div class=\"swiper-pagination\"></div>
@@ -319,79 +226,71 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
                 <div class=\"swiper-button-next swiper-button-white hide\"></div>
             </div>
         </li>
-        <li><i><a href=\"/\"><img src=\"images/1.jpg\"></a></i>
-            <h3><a href=\"/\">你是什么人便会遇上什么人</a></h3>
-            <p>有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。</p>
+        ";
+        // line 183
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(range(0, 10));
+        foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
+            // line 184
+            echo "        <li>
+            ";
+            // line 185
+            if (($context["i"] % 6)) {
+                // line 186
+                echo "            <i><a href=\"/\"><img src=\"images/";
+                echo twig_escape_filter($this->env, $context["i"], "html", null, true);
+                echo ".jpg\"></a></i>
+            ";
+            }
+            // line 188
+            echo "            <h3><a href=\"/\">你是什么人便会遇上什么人</a></h3>
+            <p>有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。</p>
+            <div class=\"weui-flex\">
+                <div class=\"weui-flex__item\">
+                    <div class=\"placeholder\">
+                        <a href=\"javascript:;\" class=\"weui-btn wx-btn_mini weui-btn_mini weui-btn_default\">
+                            <span class=\"iconfont icon-shang\"></span>99
+                        </a>
+                        <a href=\"javascript:;\" class=\"weui-btn wx-btn_mini weui-btn_mini weui-btn_default\">
+                            <span class=\"iconfont icon-xia\"></span>22
+                        </a>
+                    </div>
+                </div>
+                <div class=\"weui-flex__item contentim\">
+                    <div class=\"placeholder\">
+                        <span class=\"iconfont icon-shijian\"></span> 2019-2-10
+                    </div>
+                </div>
+                <div class=\"weui-flex__item contentim\">
+                    <div class=\"placeholder\">
+                        <span class=\"iconfont icon-weibiaoti--\"></span> 666
+                    </div>
+                </div>
+                <div class=\"weui-flex__item contentim\">
+                    <div class=\"placeholder\">
+                        <span class=\"iconfont icon-nav\"></span>
+                        <a href=\"#\" style=\"color: #797b7c\">【PHP技术】</a>
+                    </div>
+                </div>
+            </div>
         </li>
-        <li><i><a href=\"/\"><img src=\"images/2.jpg\"></a></i>
-            <h3><a href=\"/\">爱情没有永远，地老天荒也走不完</a></h3>
-            <p>也许，爱情没有永远，地老天荒也走不完，生命终结的末端，苦短情长。站在岁月的边端，那些美丽的定格，心伤的绝恋，都被四季的掩埋，一去不返。徒剩下这荒芜的花好月圆，一路相随，流离天涯背负了谁的思念？</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/3.jpg\"></a></i>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/4.jpg\"></a></i>
-            <h3><a href=\"/\">擦肩而过</a></h3>
-            <p>《擦肩而过》文/清河鱼 编绘/天朝羽打开一扇窗，我不曾把你想得平常。看季节一一过往。你停留的那个地方，是否依然花儿开放？在夜里守靠着梦中的，想那仿佛前世铭刻进心肠的</p>
-        </li>
-        <li>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/5.jpg\"></a></i>
-            <h3><a href=\"/\">擦肩而过</a></h3>
-            <p>《擦肩而过》文/清河鱼 编绘/天朝羽打开一扇窗，我不曾把你想得平常。看季节一一过往。你停留的那个地方，是否依然花儿开放？在夜里守靠着梦中的，想那仿佛前世铭刻进心肠的</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/6.jpg\"></a></i>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/7.jpg\"></a></i>
-            <h3><a href=\"/\">你是什么人便会遇上什么人</a></h3>
-            <p>有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/3.jpg\"></a></i>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/4.jpg\"></a></i>
-            <h3><a href=\"/\">擦肩而过</a></h3>
-            <p>《擦肩而过》文/清河鱼 编绘/天朝羽打开一扇窗，我不曾把你想得平常。看季节一一过往。你停留的那个地方，是否依然花儿开放？在夜里守靠着梦中的，想那仿佛前世铭刻进心肠的</p>
-        </li>
-        <li>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/5.jpg\"></a></i>
-            <h3><a href=\"/\">擦肩而过</a></h3>
-            <p>《擦肩而过》文/清河鱼 编绘/天朝羽打开一扇窗，我不曾把你想得平常。看季节一一过往。你停留的那个地方，是否依然花儿开放？在夜里守靠着梦中的，想那仿佛前世铭刻进心肠的</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/6.jpg\"></a></i>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/7.jpg\"></a></i>
-            <h3><a href=\"/\">你是什么人便会遇上什么人</a></h3>
-            <p>有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/8.jpg\"></a></i>
-            <h3><a href=\"/\">爱情没有永远，地老天荒也走不完</a></h3>
-            <p>也许，爱情没有永远，地老天荒也走不完，生命终结的末端，苦短情长。站在岁月的边端，那些美丽的定格，心伤的绝恋，都被四季的掩埋，一去不返。徒剩下这荒芜的花好月圆，一路相随，流离天涯背负了谁的思念？</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/9.jpg\"></a></i>
-            <h3><a href=\"/\">擦肩而过</a></h3>
-            <p>《擦肩而过》文/清河鱼 编绘/天朝羽打开一扇窗，我不曾把你想得平常。看季节一一过往。你停留的那个地方，是否依然花儿开放？在夜里守靠着梦中的，想那仿佛前世铭刻进心肠的</p>
-        </li>
-    </div>
+        ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 220
+        echo "    </main>
 </article>
 
+<script src=\"js/comm.js\"></script>
 <script>
     var mySwiper = new Swiper ('.swiper-container', {
         loop: true, // 循环模式选项
         autoplay:true,
         slidesPerView : 'auto',
-
+        effect : 'cube',
+        centeredSlides: true,
         // 如果需要分页器
         pagination: {
             el: '.swiper-pagination',
@@ -407,11 +306,11 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
     mySwiper.el.onmouseover=function(){
         mySwiper.navigation.\$nextEl.removeClass('hide');
         mySwiper.navigation.\$prevEl.removeClass('hide');
-    }
+    };
     mySwiper.el.onmouseout=function(){
         mySwiper.navigation.\$nextEl.addClass('hide');
         mySwiper.navigation.\$prevEl.addClass('hide');
-    }
+    };
 </script>
 </body>
 </html>
@@ -423,15 +322,19 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
         return "index\\index.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  185 => 91,  183 => 90,  181 => 89,  179 => 88,  177 => 87,  175 => 86,  173 => 85,  170 => 83,  168 => 82,  166 => 81,  164 => 80,  162 => 79,  159 => 77,  157 => 76,  155 => 75,  153 => 74,  151 => 73,  149 => 72,  147 => 71,  145 => 70,  143 => 69,  141 => 68,  139 => 67,  137 => 66,  135 => 65,  133 => 64,  131 => 63,  129 => 62,  127 => 61,  124 => 59,  121 => 57,  118 => 55,  116 => 54,  114 => 53,  110 => 50,  108 => 49,  106 => 48,  104 => 47,  102 => 46,  100 => 45,  98 => 44,  96 => 43,  94 => 42,  92 => 41,  90 => 40,  88 => 39,  86 => 38,  84 => 37,  82 => 36,  80 => 35,  78 => 34,  76 => 33,  74 => 32,  72 => 31,  70 => 30,  68 => 29,  65 => 27,  63 => 26,  61 => 25,  59 => 24,  35 => 1,);
+        return array (  283 => 220,  246 => 188,  240 => 186,  238 => 185,  235 => 184,  231 => 183,  130 => 84,  128 => 82,  126 => 81,  124 => 80,  122 => 79,  120 => 78,  118 => 77,  116 => 76,  114 => 75,  112 => 74,  110 => 73,  108 => 72,  106 => 71,  35 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("
-<!doctype html>
+        return new Source("<!doctype html>
 <html>
 <head>
     <meta charset=\"gbk\">
@@ -441,87 +344,40 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     <link href=\"css/base.css\" rel=\"stylesheet\">
     <link href=\"css/index.css\" rel=\"stylesheet\">
-    <link href=\"css/m.css\" rel=\"stylesheet\">
+    <link href=\"https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css\" rel=\"stylesheet\">
+    <link rel=\"stylesheet\" href=\"//at.alicdn.com/t/font_1137992_id64ix04yo8.css\">
     <link href=\"https://lib.baomitu.com/Swiper/4.5.0/css/swiper.min.css\" rel=\"stylesheet\">
     <script src=\"https://lib.baomitu.com/Swiper/4.5.0/js/swiper.min.js\"></script>
     <script src=\"js/hc-sticky.js\"></script>
-    <script src=\"js/comm.js\"></script>
+    <script src=\"https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js\"></script>
+    <script src=\"https://cdn.bootcss.com/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js\"></script>
     <!--[if lt IE 9]>
     <script src=\"js/modernizr.js\"></script>
     <![endif]-->
 </head>
 <body>
-<div class=\"toolbar\">
-    {#<div class=\"clearfix toolbar-inner\">#}
-        {#<div class=\"quicklink\">#}
-            {#<ul id=\"chinaz_website_links\" class=\"accesslink\">#}
-                {#<li><a href=\"http://www.chinaz.com\"><span>站长之家</span></a></li>#}
-
-                {#<li onmouseover=\"chinazTopBarMenu.create(this,'chinaz_website_menu_1');\" onmouseout=\"chinazTopBarMenu.clear(this);\" class=\" \">#}
-                    {#<a class=\"item-expand\" href=\"http://tool.chinaz.com\" target=\"_blank\"><span>站长工具</span></a>#}
-                    {#<div class=\"dropdownmenu-wrap\"><div class=\"dropdownmenu\" style=\"width: auto;\"><div class=\"dropdownmenu-inner\">#}
-                                {#<a href=\"http://alexa.chinaz.com\" target=\"_blank\">ALEXA排名查询</a>#}
-                                {#<a href=\"http://rank.chinaz.com\" target=\"_blank\">百度权重查询</a>#}
-                                {#<a href=\"http://seo.chinaz.com\" target=\"_blank\">SEO概况查询</a>#}
-                                {#<a href=\"http://link.chinaz.com\" target=\"_blank\">友情链接查询</a>#}
-                                {#<a href=\"http://pr.chinaz.com\" target=\"_blank\">Google PR查询</a>#}
-                                {#<a href=\"http://whois.chinaz.com\" target=\"_blank\">Whois信息查询</a>#}
-                                {#<a href=\"http://icp.chinaz.com\" target=\"_blank\">域名备案查询</a>#}
-                            {#</div></div></div></li>#}
-                {#<li onmouseover=\"chinazTopBarMenu.create(this,'chinaz_website_menu_2');\" onmouseout=\"chinazTopBarMenu.clear(this);\" class=\" \">#}
-                    {#<a class=\"item-expand\" href=\"http://sc.chinaz.com\" target=\"_blank\"><span>站长素材</span></a>#}
-                    {#<div class=\"dropdownmenu-wrap\"><div class=\"dropdownmenu\" style=\"width: auto;\"><div class=\"dropdownmenu-inner\">#}
-                                {#<a href=\"http://font.chinaz.com/\" target=\"_blank\">字体下载</a>#}
-                                {#<a href=\"http://sc.chinaz.com/jianli/\" target=\"_blank\">简历模板</a>#}
-                                {#<a href=\"http://sc.chinaz.com/tupian/\" target=\"_blank\">高清图片</a>#}
-                                {#<a href=\"http://sc.chinaz.com/shiliang/\" target=\"_blank\">矢量素材</a>#}
-                                {#<a href=\"http://sc.chinaz.com/ppt/\" target=\"_blank\">PPT模板</a>#}
-                                {#<a href=\"http://sc.chinaz.com/psd/\" target=\"_blank\">PSD素材</a>#}
-                            {#</div></div></div></li>#}
-                {#<li><a href=\"http://down.chinaz.com\" target=\"_blank\"><span>源码下载</span></a></li>#}
-
-
-                {#<li onmouseover=\"chinazTopBarMenu.create(this,'chinaz_website_menu_3');\" onmouseout=\"chinazTopBarMenu.clear(this);\">#}
-                    {#<a class=\"item-expand\" href=\"http://top.chinaz.com\" target=\"_blank\"><span>网站排行榜</span></a>#}
-                {#</li>#}
-
-                {#<li><a href=\"http://bbs.chinaz.com\" target=\"_blank\"><span>站长论坛</span></a></li>#}
-
-            {#</ul>#}
-
-            {#<div id=\"chinaz_website_menu_1\" class=\"topbar-hiddencontents\">#}
-                {#<a href=\"http://alexa.chinaz.com\" target=\"_blank\">ALEXA排名查询</a>#}
-                {#<a href=\"http://rank.chinaz.com\" target=\"_blank\">百度权重查询</a>#}
-                {#<a href=\"http://seo.chinaz.com\" target=\"_blank\">SEO概况查询</a>#}
-                {#<a href=\"http://link.chinaz.com\" target=\"_blank\">友情链接查询</a>#}
-                {#<a href=\"http://pr.chinaz.com\" target=\"_blank\">Google PR查询</a>#}
-                {#<a href=\"http://whois.chinaz.com\" target=\"_blank\">Whois信息查询</a>#}
-                {#<a href=\"http://icp.chinaz.com\" target=\"_blank\">域名备案查询</a>#}
-            {#</div>#}
-            {#<div id=\"chinaz_website_menu_2\" class=\"topbar-hiddencontents\">#}
-                {#<a href=\"http://font.chinaz.com/\" target=\"_blank\">字体下载</a>#}
-                {#<a href=\"http://sc.chinaz.com/jianli/\" target=\"_blank\">简历模板</a>#}
-                {#<a href=\"http://sc.chinaz.com/tupian/\" target=\"_blank\">高清图片</a>#}
-                {#<a href=\"http://sc.chinaz.com/shiliang/\" target=\"_blank\">矢量素材</a>#}
-                {#<a href=\"http://sc.chinaz.com/ppt/\" target=\"_blank\">PPT模板</a>#}
-                {#<a href=\"http://sc.chinaz.com/psd/\" target=\"_blank\">PSD素材</a>#}
-            {#</div>#}
-
-            {#<div id=\"chinaz_website_menu_3\" class=\"topbar-hiddencontents\">#}
-                {#<a href=\"http://top.chinaz.com/hangye/\" target=\"_blank\">行业网站排名</a>#}
-                {#<a href=\"http://top.chinaz.com/diqu/\" target=\"_blank\">地区网站排名</a>#}
-                {#<a href=\"http://top.chinaz.com/waptop/\" target=\"_blank\">移动排行榜</a>#}
-            {#</div>#}
-
-        {#</div>#}
-        {#<div id=\"chinaz_topbar\"><div class=\"userbar\">#}
-                {#<a href=\"http://user.sc.chinaz.com/login.aspx?Returnurl=http://sc.chinaz.com/jiaoben/caidanhaohang.html\" target=\"_top\">立即登录</a>#}
-                {#<a href=\"http://user.sc.chinaz.com/login.aspx?Returnurl=http://sc.chinaz.com/jiaoben/caidanhaohang.html\">注册新帐号</a>#}
-            {#</div>#}
-        {#</div>#}
-    {#</div>#}
-</div>
 <header>
+    <div class=\"toolbar\">
+        <div class=\"clearfix toolbar-inner\">
+            <div class=\"quicklink\">
+                <ul id=\"chinaz_website_links\" class=\"accesslink\">
+                    <li><a href=\"http://www.chinaz.com\"><span>站长之家</span></a></li>
+                    <li><a href=\"http://down.chinaz.com\" target=\"_blank\"><span>源码下载</span></a></li>
+                    <li><a href=\"http://bbs.chinaz.com\" target=\"_blank\"><span>站长论坛</span></a></li>
+
+                </ul>
+
+            </div>
+            <div id=\"chinaz_topbar\"><div class=\"userbar\">
+                    <span>快捷登录：</span>
+                    <a href=\"#\" target=\"_top\" title=\"QQ登录\"><i class=\"iconfont icon-qq\"></i></a>
+                    <a href=\"#\" target=\"_top\" title=\"微博登录\"><i class=\"iconfont icon-xinlangweibo\"></i></a>
+                    <a href=\"#\" target=\"_top\" title=\"Github登录\"><i class=\"iconfont icon-github\"></i></a>
+                    <a href=\"#\" target=\"_top\" title=\"微信登录\"><i class=\"iconfont icon-weixin\"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class=\"logo\">
         <img src=\"images/logo.png\" alt=\"\">
     </div>
@@ -533,8 +389,6 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
             <li><a href=\"list.html\">我的日记</a></li>
             <li><a href=\"about.html\">关于我</a></li>
             <li><a href=\"gbook.html\">留言</a></li>
-            <li><a href=\"info.html\">内容页</a></li>
-            <li><a href=\"infopic.html\">内容页</a></li>
         </ul>
     </nav>
     <script>
@@ -549,8 +403,22 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
         }
     </script>
 </header>
-<article data-sticky-container>
-    <div class=\"l_box selector\">
+{#<header class=\"header-navigation\" id=\"header\">#}
+    {#<nav>#}
+        {#<h2 id=\"mnavh\"><span class=\"navicon\"></span></h2>#}
+        {#<ul id=\"starlist\">#}
+            {#<li><a href=\"index.html\">网站首页</a></li>#}
+            {#<li><a href=\"share.html\">我的相册</a></li>#}
+            {#<li><a href=\"list.html\">我的日记</a></li>#}
+            {#<li><a href=\"about.html\">关于我</a></li>#}
+            {#<li><a href=\"gbook.html\">留言</a></li>#}
+            {#<li><a href=\"info.html\">内容页</a></li>#}
+            {#<li><a href=\"infopic.html\">内容页</a></li>#}
+        {#</ul>#}
+    {#</nav>#}
+{#</header>#}
+<article>
+    <aside class=\"l_box\">
         <div class=\"search\">
             <form action=\"/e/search/index.php\" method=\"post\" name=\"searchform\" id=\"searchform\">
                 <input name=\"keyboard\" id=\"keyboard\" class=\"input_text\" value=\"请输入关键字词\" style=\"color: rgb(153, 153, 153);\" onfocus=\"if(value=='请输入关键字词'){this.style.color='#000';value=''}\" onblur=\"if(value==''){this.style.color='#999';value='请输入关键字词'}\" type=\"text\">
@@ -560,13 +428,11 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
                 <input name=\"Submit\" class=\"input_submit\" value=\"搜索\" type=\"submit\">
             </form>
         </div>
-        <div class=\"fenlei\">
-            <h2>文章分类</h2>
+        <div class=\"about_me\">
+            <h2>关于我</h2>
             <ul>
-                <li><a href=\"/\">学无止境（33）</a></li>
-                <li><a href=\"/\">日记（19）</a></li>
-                <li><a href=\"/\">慢生活（520）</a></li>
-                <li><a href=\"/\">美文欣赏（40）</a></li>
+                <i><img src=\"images/4.jpg\"></i>
+                <p><b>杨青</b>，一个80后草根女站长！09年入行。一直潜心研究web前端技术，一边工作一边积累经验，分享一些个人博客模板，以及SEO优化等心得。</p>
             </ul>
         </div>
         <div class=\"remen\">
@@ -627,27 +493,20 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
                 <a href=\"http://www.yangqq.com\">杨青个人博客</a> <a href=\"http://www.yangqq.com\">杨青博客</a>
             </ul>
         </div>
-        <div class=\"about_me\">
-            <h2>关于我</h2>
-            <ul>
-                <i><img src=\"images/4.jpg\"></i>
-                <p><b>杨青</b>，一个80后草根女站长！09年入行。一直潜心研究web前端技术，一边工作一边积累经验，分享一些个人博客模板，以及SEO优化等心得。</p>
-            </ul>
-        </div>
         <div class=\"guanzhu\">
             <h2>关注我 么么哒</h2>
             <ul>
                 <img src=\"images/wx.jpg\">
             </ul>
         </div>
-    </div>
-    <div class=\"r_box\">
-        <li>
+    </aside>
+    <main class=\"r_box\">
+        <li style=\"padding: 0\">
             <div class=\"swiper-container swiper-container-initialized swiper-container-horizontal\">
                 <div class=\"swiper-wrapper\">
-                    <div class=\"swiper-slide\"><img src=\"http://dingyue.ws.126.net/0hAJDgvjmuMy8VTOGgGpUXfkLZp1Aqcbvg04WQwmb2wVc1551098903239.jpg\" alt=\"\"></div>
-                    <div class=\"swiper-slide\"><img src=\"http://img.leikeji.com/resource/img/47e0ac4ad663403e8ad142cdabaf6a25.jpg\" alt=\"\"></div>
-                    <div class=\"swiper-slide\"><img src=\"https://dsfs.oppo.com/hd/2019/Reno/images/logo-iamreno-9ab3befba3.png\" alt=\"\"></div>
+                    <div class=\"swiper-slide\"><img src=\"http://sc.chinaz.com/Files/pic/indexpic/hdpic2.jpg\" alt=\"\"></div>
+                    <div class=\"swiper-slide\"><img src=\"http://sc.chinaz.com/Files/pic/indexpic/hdpic1.jpg\" alt=\"\"></div>
+                    <div class=\"swiper-slide\"><img src=\"http://sc.chinaz.com/Files/pic/indexpic/hdpic3.jpg\" alt=\"\"></div>
                 </div>
                 <!-- 如果需要分页器 -->
                 <div class=\"swiper-pagination\"></div>
@@ -657,79 +516,54 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
                 <div class=\"swiper-button-next swiper-button-white hide\"></div>
             </div>
         </li>
-        <li><i><a href=\"/\"><img src=\"images/1.jpg\"></a></i>
-            <h3><a href=\"/\">你是什么人便会遇上什么人</a></h3>
-            <p>有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/2.jpg\"></a></i>
-            <h3><a href=\"/\">爱情没有永远，地老天荒也走不完</a></h3>
-            <p>也许，爱情没有永远，地老天荒也走不完，生命终结的末端，苦短情长。站在岁月的边端，那些美丽的定格，心伤的绝恋，都被四季的掩埋，一去不返。徒剩下这荒芜的花好月圆，一路相随，流离天涯背负了谁的思念？</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/3.jpg\"></a></i>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/4.jpg\"></a></i>
-            <h3><a href=\"/\">擦肩而过</a></h3>
-            <p>《擦肩而过》文/清河鱼 编绘/天朝羽打开一扇窗，我不曾把你想得平常。看季节一一过往。你停留的那个地方，是否依然花儿开放？在夜里守靠着梦中的，想那仿佛前世铭刻进心肠的</p>
-        </li>
+        {% for i in 0..10 %}
         <li>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/5.jpg\"></a></i>
-            <h3><a href=\"/\">擦肩而过</a></h3>
-            <p>《擦肩而过》文/清河鱼 编绘/天朝羽打开一扇窗，我不曾把你想得平常。看季节一一过往。你停留的那个地方，是否依然花儿开放？在夜里守靠着梦中的，想那仿佛前世铭刻进心肠的</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/6.jpg\"></a></i>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/7.jpg\"></a></i>
+            {% if i%6 %}
+            <i><a href=\"/\"><img src=\"images/{{ i }}.jpg\"></a></i>
+            {% endif %}
             <h3><a href=\"/\">你是什么人便会遇上什么人</a></h3>
-            <p>有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。</p>
+            <p>有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。</p>
+            <div class=\"weui-flex\">
+                <div class=\"weui-flex__item\">
+                    <div class=\"placeholder\">
+                        <a href=\"javascript:;\" class=\"weui-btn wx-btn_mini weui-btn_mini weui-btn_default\">
+                            <span class=\"iconfont icon-shang\"></span>99
+                        </a>
+                        <a href=\"javascript:;\" class=\"weui-btn wx-btn_mini weui-btn_mini weui-btn_default\">
+                            <span class=\"iconfont icon-xia\"></span>22
+                        </a>
+                    </div>
+                </div>
+                <div class=\"weui-flex__item contentim\">
+                    <div class=\"placeholder\">
+                        <span class=\"iconfont icon-shijian\"></span> 2019-2-10
+                    </div>
+                </div>
+                <div class=\"weui-flex__item contentim\">
+                    <div class=\"placeholder\">
+                        <span class=\"iconfont icon-weibiaoti--\"></span> 666
+                    </div>
+                </div>
+                <div class=\"weui-flex__item contentim\">
+                    <div class=\"placeholder\">
+                        <span class=\"iconfont icon-nav\"></span>
+                        <a href=\"#\" style=\"color: #797b7c\">【PHP技术】</a>
+                    </div>
+                </div>
+            </div>
         </li>
-        <li><i><a href=\"/\"><img src=\"images/3.jpg\"></a></i>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/4.jpg\"></a></i>
-            <h3><a href=\"/\">擦肩而过</a></h3>
-            <p>《擦肩而过》文/清河鱼 编绘/天朝羽打开一扇窗，我不曾把你想得平常。看季节一一过往。你停留的那个地方，是否依然花儿开放？在夜里守靠着梦中的，想那仿佛前世铭刻进心肠的</p>
-        </li>
-        <li>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/5.jpg\"></a></i>
-            <h3><a href=\"/\">擦肩而过</a></h3>
-            <p>《擦肩而过》文/清河鱼 编绘/天朝羽打开一扇窗，我不曾把你想得平常。看季节一一过往。你停留的那个地方，是否依然花儿开放？在夜里守靠着梦中的，想那仿佛前世铭刻进心肠的</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/6.jpg\"></a></i>
-            <h3><a href=\"/\">女孩都有浪漫的小情怀——浪漫的求婚词</a></h3>
-            <p>还在为浪漫的求婚词而烦恼不知道该怎么说吗？女孩子都有着浪漫的小情怀，对于求婚更是抱着满满的浪漫期待，也希望在求婚那一天对方可以给自己一个最浪漫的求婚词。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/7.jpg\"></a></i>
-            <h3><a href=\"/\">你是什么人便会遇上什么人</a></h3>
-            <p>有时就为了一句狠话，像心头一口毒钉，永远麻痺着亲密感情交流。恶言，真要慎出，平日多誠心爱语，乃最简易之佈施。</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/8.jpg\"></a></i>
-            <h3><a href=\"/\">爱情没有永远，地老天荒也走不完</a></h3>
-            <p>也许，爱情没有永远，地老天荒也走不完，生命终结的末端，苦短情长。站在岁月的边端，那些美丽的定格，心伤的绝恋，都被四季的掩埋，一去不返。徒剩下这荒芜的花好月圆，一路相随，流离天涯背负了谁的思念？</p>
-        </li>
-        <li><i><a href=\"/\"><img src=\"images/9.jpg\"></a></i>
-            <h3><a href=\"/\">擦肩而过</a></h3>
-            <p>《擦肩而过》文/清河鱼 编绘/天朝羽打开一扇窗，我不曾把你想得平常。看季节一一过往。你停留的那个地方，是否依然花儿开放？在夜里守靠着梦中的，想那仿佛前世铭刻进心肠的</p>
-        </li>
-    </div>
+        {% endfor %}
+    </main>
 </article>
 
+<script src=\"js/comm.js\"></script>
 <script>
     var mySwiper = new Swiper ('.swiper-container', {
         loop: true, // 循环模式选项
         autoplay:true,
         slidesPerView : 'auto',
-
+        effect : 'cube',
+        centeredSlides: true,
         // 如果需要分页器
         pagination: {
             el: '.swiper-pagination',
@@ -745,11 +579,11 @@ class __TwigTemplate_0304801f1a2b47dd77e0cf1fbf57f811b1149ee49eeee98c6199df46797
     mySwiper.el.onmouseover=function(){
         mySwiper.navigation.\$nextEl.removeClass('hide');
         mySwiper.navigation.\$prevEl.removeClass('hide');
-    }
+    };
     mySwiper.el.onmouseout=function(){
         mySwiper.navigation.\$nextEl.addClass('hide');
         mySwiper.navigation.\$prevEl.addClass('hide');
-    }
+    };
 </script>
 </body>
 </html>
