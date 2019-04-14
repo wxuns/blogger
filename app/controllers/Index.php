@@ -16,6 +16,7 @@ class IndexController extends BaseController
      */
     public function indexAction($name = 'Polite')
     {
+        $this->initView();
         $model = new SampleModel();
         $this->getView()->assign('content', $model->selectSample());
         $this->getView()->assign('name', $name);

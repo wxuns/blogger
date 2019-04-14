@@ -1,0 +1,5 @@
+2019-04-13 11:17:29 | yaf.error | 8092 | 5cb154c99cf62 | 1555125449.828 | An exception has been thrown during the rendering of a template ("Object of class DateTime could not be converted to string"). | D:\item\blogger\resources\views\index\index.twig in line 145
+2019-04-13 11:21:07 | yaf.error | 8092 | 5cb155a32eaa5 | 1555125667.313 | An exception has been thrown during the rendering of a template ("Object of class DateTime could not be converted to string"). | D:\item\blogger\resources\views\index\index.twig in line 145
+2019-04-13 11:23:25 | yaf.error | 8092 | 5cb1562d172e9 | 1555125805.224 | Unknown "date" tag. | D:\item\blogger\resources\views\index\index.twig in line 145
+2019-04-13 11:24:13 | yaf.error | 8092 | 5cb1565ce5c23 | 1555125853.45 | Unknown "time" function. | D:\item\blogger\resources\views\index\index.twig in line 145
+2019-04-13 11:24:23 | yaf.error | 8092 | 5cb1566759c2c | 1555125863.471 | An exception has been thrown during the rendering of a template ("Object of class DateTime could not be converted to string"). | D:\item\blogger\resources\views\index\index.twig in line 145
